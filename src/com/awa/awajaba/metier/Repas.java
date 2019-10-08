@@ -17,5 +17,8 @@ public class Repas {
     private int numero ;
     private LocalDate date ;
     
-    
+    public void  repas (int numero ,LocalDate date){
+            this.numero= numero;
+            this.date=date;
+    }
 }
